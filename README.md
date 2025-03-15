@@ -1,15 +1,21 @@
 # Dual Deconvolution Algorithm
 
-This repository includes simplified Matlab codes that demonstrate the principles of dual deconvolution algorithm.
+This software package provides key algorithms for dual-deconvolution microscopy analysis. The dual-deconvolution algorithm is an advanced deep-tissue imaging technique designed to measure fluorescence signals from thick, aberrated samples. It incorporates virtual structured illumination microscopy (SIM) and computational adaptive optics to achieve super-resolution imaging.
+
+The reference URL available on the archive: : https://doi.org/10.48550/arXiv.2404.11849
 
 ## System Requirements
-The codes were developed and tested on a 64-bit Microsoft Windows 11 and Linux systems using MATLAB version R2020a, R2021a, R2022a, R2023a. R2024a, R2024b, and R2025a. 
-Signal processing toolbox and image processing toolbox must be properly installed during the Matlab download process.
+The code has been validated for use in MATLAB R2020a, R2021a, R2022a, R2023a, R2024a, R2024b, and R2025a environments. Two essential toolboxes must be installed during the MATLAB installation process: the Signal Processing Toolbox and the Image Processing Toolbox.
+
 Some subfunctions are implemented as MEX functions written in C++ to enhance performance. Precompiled MEX executable files for Microsoft Windows systems and the corresponding C++ source code are provided. If you wish to run the code on a linux system, please compile the MEX source code on that system for use. The dual-deconvolution algorithm is memory-intensive and requires at least 64 GB of RAM (128 GB is recommended for optimal performance).
+
+All code and datasets have been developed and tested by Seok-chan Yoon (Pusan University) and Su-min Lim (Korea University), members of the Super-Depth Imaging Group (https://www.bioimaging.korea.ac.kr/).
 
 ## Code and Sample Datasets
 
-Please download the code and data from the repository's 'code' and 'data' tabs, respectively. Place the the downloaded zip files in the same directory and extract them.
+The package only includes comprehensive algorithm implementations to facilitate the broader adoption of dual-deconvolution in deep-tissue imaging applications.
+
+The experimental data for this code can be downloaded from the following link on Figshare as follows: https://doi.org/10.6084/m9.figshare.28600847.v1
 
 ### Directory Structure:
 
