@@ -1,4 +1,4 @@
-# Dual Deconvolution Algorithm
+# Dual-deconvolution Algorithm
 
 This software package provides key algorithms for dual-deconvolution microscopy analysis. The dual-deconvolution algorithm is an advanced deep-tissue imaging technique designed to measure fluorescence signals from thick, aberrated samples. It incorporates virtual structured illumination microscopy (SIM) and computational adaptive optics to achieve super-resolution imaging.
 
