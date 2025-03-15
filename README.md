@@ -1,7 +1,6 @@
 # Dual Deconvolution Algorithm
-**Seokchan Yoon (School of Biomedical Convergence Engineering, Pusan National University, Yangsan, South Korea)**
 
-This repository includes three sample datasets and simplified Matlab codes that demonstrate the principles of dual deconvolution algorithm.
+This repository includes simplified Matlab codes that demonstrate the principles of dual deconvolution algorithm.
 
 ## System Requirements
 The codes were developed and tested on a 64-bit Microsoft Windows 11 and Linux systems using MATLAB version R2020a, R2021a, R2022a, R2023a. R2024a, R2024b, and R2025a. 
